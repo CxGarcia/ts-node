@@ -13,5 +13,6 @@
     "skipLibCheck": true,
     "emitDeclarationOnly": true,
     "declaration": true,
+    "outDir": "lib"
   }
 }

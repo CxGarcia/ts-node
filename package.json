@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./esbuild.config.js && node lib",
+    "dev:tsc": "tsc && node lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
