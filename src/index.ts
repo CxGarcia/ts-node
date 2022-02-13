@@ -1,11 +1,9 @@
-import { log } from './utils'
+import { logger } from './utils'
 
-export const _fn = () => {
-  return false
+export const _fn = (str: string) => {
+  return str
 }
 
-const fn = log(_fn)
+const fn = logger(_fn)
 
-fn(2)
-fn(2)
-fn(2)
+fn('xxx')
