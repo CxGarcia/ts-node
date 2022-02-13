@@ -1,5 +1,5 @@
 import { log } from './utils'
 
-const testFn = () => {}
+export const _fn = () => {}
 
-log(testFn())
+const fn = log(_fn)
