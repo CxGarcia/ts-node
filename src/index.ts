@@ -1,9 +1,5 @@
 import { logger } from './utils'
 
-export const _fn = (str: string) => {
-  return str
-}
+export function _fn() {}
 
 const fn = logger(_fn)
-
-fn('xxx')
